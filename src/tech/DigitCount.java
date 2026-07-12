@@ -10,10 +10,8 @@ public class DigitCount {
 		System.out.print("Enter num: ");
 		int num = sc.nextInt();
 		
-		int temp;
 		int count=0;
 		while(num>0) {
-			temp=num%10;
 			count++;
 			
 			num/=10;
